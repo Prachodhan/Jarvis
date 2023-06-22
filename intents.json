@@ -1,0 +1,165 @@
+{
+    "intents":[
+
+        {
+            "tag":"greetings",
+            "patterns":["hello","hi","hey","wake up","jarvis"],
+            "responses":["Hello sir","How are your sir","Always for you sir","Hey sir","Here's your assistant"
+            ]
+        },
+        {
+            "tag":"bye",
+            "patterns":["bye","goodbye","see you later","exit","sleep"],
+            "responses": ["Bye.", "I am Going.", "Bye Sir.", "Good Bye","It'll be Nice To Meet You Again.", "See You Later"
+            ]
+        },
+        {
+            "tag": "health",
+            "patterns": ["how are you", "how you", "are you fine?", "are you"],
+            "responses": ["Fine.", "Perfect.", "Cool.","Like You.", "Are you Fine? I'm Fine"
+            ]
+        },
+        {
+            "tag": "identity",
+            "patterns": ["your name", "what is your name" , "who are you", "what are you"],
+            "responses": ["Jarvis", "I Am Jarvis.", "An A I Assistant","My Name is Jarvis.", "Great Assistant"]
+        },
+        {
+            "tag": "time",
+            "patterns": ["what is time", "time", "samayam entha","time entha", "what's the time"],
+            "responses": ["time"]
+        },    
+        {
+            "tag":"date",
+            "patterns": ["what is date", "date", "tareekenti", "what's the date"],
+            "responses" :["date"]
+        },
+        {
+            "tag":"day",
+            "patterns": ["what is day", "day", "ye vaaram", "what's the day"],
+            "responses" :["day"]
+        },
+        {
+            "tag":"wikipedia",
+            "patterns": ["who is ", "about", "what is ", "wikipedia"],
+            "responses" :["wikipedia"]
+        },
+        {
+            "tag":"google",
+            "patterns": ["google search", "search", "google "],
+            "responses" :["google"]
+        },
+        {
+            "tag":"weather",
+            "patterns":["What's the weather like today?", "Will it rain today?", "Weather forecast", "Temperature in [city]"],
+            "responses":["The weather today is [description].", "There is a [weather condition] forecasted for today.", "The temperature in [city] is [temperature]."]
+            },
+            {
+            "tag":"joke",
+            "patterns":["Tell me a joke", "Do you know any jokes?", "I need a good laugh"],
+            "responses":["Why don't scientists trust atoms? Because they make up everything!", "Why did the scarecrow win an award? Because he was outstanding in his field!"]
+            },
+            {
+            "tag":"music",
+            "patterns":["Play some music", "Can you recommend a song?", "I want to listen to music"],
+            "responses":["Sure, here's a song for you.", "Enjoy the music!", "Playing your favorite tunes."]
+            },
+            {
+            "tag":"reminder",
+            "patterns":["Set a reminder for [task]", "Remind me to [task] at [time]", "Can you remind me about [task]?"
+            ],
+            "responses":["Reminder set for [task].", "I will remind you about [task] at [time].", "Sure, I'll remind you about [task]."]
+            },
+            {
+            "tag":"news",
+            "patterns":["Tell me the latest news", "What's happening in the world?", "News update"],
+            "responses":["Here are the latest news headlines.", "Stay updated with the latest news.", "Let me fetch the news for you."]
+            },
+            {
+            "tag":"sports",
+            "patterns":["What's the score of the [team] game?", "Who won the match between [team1] and [team2]?", "Any sports updates?"],
+            "responses":["The score of the [team] game is [score].", "[Team1] won the match against [team2].", "Stay tuned for the latest sports updates."]
+            },
+            {
+            "tag":"restaurant",
+            "patterns":["Find restaurants near me", "I'm hungry, suggest some places to eat", "Any good restaurants around?"],
+            "responses":["Here are some restaurants near you.", "I found a few options for you to choose from.", "Let me recommend some popular restaurants in your area."]
+            },
+            {
+            "tag":"translation",
+            "patterns":["Translate [phrase] to [language]", "How do you say [phrase] in [language]?", "Translate to [language]"],
+            "responses":["The translation of [phrase] to [language] is [translation].", "In [language], [phrase] translates to [translation].", "Here's the translation of [phrase] in [language]."]
+            },
+            {
+            "tag":"calendar",
+            "patterns":["Add an event to my calendar", "What's on my schedule for today?", "Can you check my calendar?"],
+            "responses":["Event added to your calendar.", "Here's your schedule for today.", "Let me check your calendar."]
+            },
+            {
+            "tag":"math",
+            "patterns":["What's [number1] plus [number2]?", "Calculate [number1] divided by [number2]", "What is the square root of [number]?"],
+            "responses":["The sum of [number1] and [number2] is [sum].", "The result of [number1] divided by [number2] is [result].", "The square root of [number] is [square root]."]
+            },
+            {
+            "tag":"movie",
+            "patterns":["Find information about [movie]", "Who is the director of [movie]?", "Any good movies playing nearby?"],
+            "responses":["Here's the information about [movie].", "[Movie] was directed by [director].", "Here are some movies playing near you."]
+            },
+            {
+            "tag":"book",
+            "patterns":["Recommend a book to read", "What's a popular book right now?", "Tell me about [book]"],
+            "responses":["I recommend you read [book].", "One popular book right now is [book].", "Here's some information about [book]."]
+            },
+            {
+            "tag":"alarm",
+            "patterns":["Set an alarm for [time]", "Wake me up at [time]", "Can you set a reminder for [time]?"],
+            "responses":["Alarm set for [time].", "I will wake you up at [time].", "Sure, I'll remind you at [time]."]
+            },
+            {
+            "tag":"calories",
+            "patterns":["How many calories are in [food]?", "What's the nutritional value of [food]?", "Calories in [food]"],
+            "responses":["[Food] contains [calories] calories.", "The nutritional value of [food] is [calories] calories.", "In [food], there are [calories] calories."]
+            },
+            {
+            "tag":"exercise",
+            "patterns":["What are some good exercises for [body part]?", "How do I do [exercise]?", "Workout recommendations"],
+            "responses":["Here are some exercises for [body part].", "To do [exercise], follow these steps.", "I can provide you with workout recommendations."]
+            },
+            {
+            "tag":"quote",
+            "patterns":["Give me a motivational quote", "Any inspiring quotes?", "Quote of the day"],
+            "responses":["Here's a motivational quote:", "Stay inspired with this quote:", "Quote of the day:"]
+            },
+            {
+            "tag":"conversion",
+            "patterns":["Convert [value1] [unit1] to [unit2]", "How many [unit2] are in [value1] [unit1]?", "Convert to [unit2]"],
+            "responses":["[value1] [unit1] is equal to [converted_value] [unit2].", "There are [converted_value] [unit2] in [value1] [unit1].", "The conversion of [value1] [unit1] to [unit2] is [converted_value]."]
+            },
+            {
+            "tag":"shopping",
+            "patterns":["Find [product]", "Where can I buy [product]?", "Any good deals on [product]?"],
+            "responses":["I found [product] for you.", "You can buy [product] from these stores.", "Here are some deals on [product]."]
+            },
+            {
+            "tag":"technology",
+            "patterns":["Tell me about the latest gadgets", "What's new in technology?", "Technology updates"],
+            "responses":["Here are the latest gadgets and tech news.", "Stay updated with the latest technology trends.", "Let me provide you with the latest technology updates."]
+            },
+            {
+            "tag":"language",
+            "patterns":["Teach me a new word", "Translate [word] to [language]", "Word of the day"],
+            "responses":["The word of the day is [word].", "Here's a new word for you to learn:", "The translation of [word] to [language] is [translation]."]
+            },
+            {
+            "tag":"fitness",
+            "patterns":["How can I improve my fitness?", "Fitness tips", "Workout routine"],
+            "responses":["Here are some tips to improve your fitness.", "Stay fit with these recommendations.", "I can provide you with a workout routine."]
+            },
+            {
+            "tag":"finance",
+            "patterns":["What's the current stock price of [company]?", "How can I save money?", "Finance tips"],
+            "responses":["The current stock price of [company] is [price].", "Here are some tips to save money.", "I can provide you with finance tips."]
+            }
+            
+    ]
+}
