@@ -4,7 +4,7 @@
 
 
 
-## ***Developers*** 👦👧👦
+## ***Developers*** 
                 1. M Karthikeya Prachodhan (College🏛️: IIIT NAYA RAIPUR)
                 2. R S Buvan (College🏛️: IIIT NAYA RAIPUR)
                 
